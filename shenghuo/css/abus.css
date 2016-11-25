@@ -1,0 +1,378 @@
+.footer {
+	margin-top: 50px;
+}
+.nav_b, .nav_b p {
+	width: 100%;
+}
+.nav_b, .bwork div, .bman div, .bman dl {
+	text-align: center;
+}
+.nav_b {
+	height: 305px;
+	padding-top: 80px;
+	margin-bottom: 60px;
+	background: url("../images/common_problem.png") center 100% no-repeat;
+	line-height: 305px;
+	font-size: 52px;
+	font-family: "SimSun";
+	color: #6f6f6f;
+}
+.nav_b p {
+	float: 50%;
+}
+.main {
+	width: 1050px;
+	margin: 0 auto;
+	font-weight: bolder;
+}
+.leftnav {
+	float: left;
+	width: 220px;
+	height: 100%;
+}
+.brief {
+	float: right;
+	width: 755px;
+	margin-right: 35px;
+}
+.brief h2 {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: #f65739;
+}
+.leftnav ul li {
+	padding: 13px 20px;
+	margin-bottom: 7px;
+	background: #FFF;
+	border: 1px solid #ccc;
+	line-height: 16px;
+	font-size: 16px;
+	color: #999;
+}
+.leftnav ul li em {
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url("../images/xiala.png") center center no-repeat;
+	background-size: 100% 100%;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+#divMap {
+	width:600px;
+	height:390px;
+	margin-bottom: 10px;
+}
+.leftnav .select, .leftnav ul li:hover{
+	background: #f65739;
+	color: #fff;
+}
+/*第一模块*/
+.bwork img {
+	display: block;
+	width: 755px;
+	height: auto;
+}
+.bwork div, .bman div {
+	height: 358px;
+	margin: 20px 0;
+	background: url("../images/photo.png") no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.bwork div {
+	background: url("../images/1_03.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.bman div {
+	font-size: 42px;
+	line-height: 355px;
+}
+/*第二模块*/
+.bman dl {
+	display: none;
+	float: left;
+	width: 115px;
+	height: 210px;
+	margin: 0 70px 40px 0;
+}
+.bman dl dt {
+	width: 115px;
+	height: 115px;
+	background: #f65739;
+	border-radius: 50%;
+	line-height: 115px;
+	color: #fff;
+}
+.bman dl dd {
+	width: 115px;
+	margin: 25px 0 0 0;
+}
+.bman dl dd p {
+	color: #4c4c4c;
+	font-size: 16px;
+}
+.bman dl dd span {
+	color: #afafaf;
+	font-size: 16px;
+}
+.bman p, .bus .span, .contacts {
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+/*第三模块*/
+iframe {
+	width: 631px;
+	height: 410px;
+}
+.bus h3 {
+	font-size: 18px;
+	color: #464646;
+	text-indent: 2em;
+}
+.contacts {
+    float: left;
+    width: 220px;
+    padding-left: 1.3em;
+    background: url("../images/life_icon_13.png") 0px 4px no-repeat;
+    background-size: 8% 92%;
+}
+.contacts em {
+	color: #f77560;
+	font-size: 20px;
+}
+.bus .span {
+	float: left;
+	display: block;
+	width: 500px;
+	padding-left: 1.5em;
+	background: url("../images/life_icon_15.png") 0px 0px no-repeat;
+}
+.bus, .bman {
+	display: none;
+	margin-bottom: 50px;
+}
+.leftnav ul li .sel {
+	background: url("../images/xiala2.png");
+	background-size: 100% 100%;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+/*@media*/
+@media screen and (max-width: 1500px) {
+	.nav_b {
+	    width: 100%;
+	    height: 305px;
+	    padding-top: 80px;
+	    margin-bottom: 60px;
+	    background: url("../images/common_problem.png") center center no-repeat;
+	    text-align: center;
+	    line-height: 305px;
+	    font-size: 52px;
+	    font-family: "SimSun";
+	    color: #6f6f6f;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.header {
+	    position: absolute;
+	}
+	.leftnav {
+		float: left;
+		width: 100%;
+		height: 50px;
+	}
+	.leftnav ul {
+		width: 100%;
+	}
+	.leftnav ul li {
+		float: left;
+		width: 22%;
+	    padding: 13px 20px;
+	    margin-bottom: 7px;
+	    background: #FFF;
+	    border: 1px solid #ccc;
+	}
+	.nav_b {
+	    width: 100%;
+	    height: 175px;
+	    padding-top: 80px;
+	    margin-bottom: 60px;
+	    background: url("../images/common_problem.png") center center no-repeat;
+	    text-align: center;
+	    line-height: 175px;
+	    font-size: 52px;
+	    font-family: "SimSun";
+	    color: #6f6f6f;
+	}
+	.main {
+		width: 100%;
+		margin: 0 auto;
+		font-weight: bolder;
+	}
+	.brief {
+	    float: right;
+	    width: 90%;
+	    margin: 0 5%;
+	}
+	.bus {
+		text-align: center;
+	}
+	.bman dl {
+		display: none;
+	    float: left;
+	    width: 20%;
+	    height: 210px;
+	    margin: 0 2.5% 40px 2.5%;
+	    text-align: center;
+	}
+	.nav_b {
+	    padding-top: 60px;
+	}
+@media screen and (max-width: 960px) {
+	.nav_b {
+	    width: 100%;
+	    height: 205px;
+	    padding-top: 60px;
+	    margin-bottom: 30px;
+	    line-height: 205px;
+	    font-size: 30px;
+	}
+	.bwork img {
+		width: 100%;
+		margin: 20px auto;
+	}
+}
+@media screen and (max-width: 750px) {
+	.bwork div, .bman div {
+	    width: 90%;
+	    height: 250px;
+	    margin: 20px auto;
+	    font-size: 36px;
+	    text-align: center;
+	    line-height: 250px;
+	}
+	.bwork img {
+		width: 90%;
+	}
+	iframe {
+		width: 310px;
+		height: 200px;
+	}
+	.leftnav ul li {
+	    line-height: 14px;
+	    font-size: 14px;
+	}
+	.nav_b {
+		margin-bottom: 30px;
+	}
+	#divMap {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.nav_b {
+	    font-size: 30px;
+	}
+	.bus .span {
+	    width: 90%;
+	}
+	.bman dl dt {
+		width: 100%;
+	    height: 115px;
+	    background: #f65739;
+	    border-radius: 50%;
+	    line-height: 115px;
+	    color: #fff;
+	}
+	.bman dl dt {
+	    width: 100%; 
+	    height: 58px;
+	    background: #f65739;
+	    border-radius: 50%;
+	    line-height: 58px;
+	    font-size: 12px;
+	    color: #fff;
+	}
+	.bman dl dd {
+		width: 107%;
+		margin: 25px 0 0 0;
+	}
+	.bman dl dd p {
+	    width: 94%;
+	    color: #4c4c4c;
+	    font-size: 12px;
+	    text-align: center;
+	}
+	.bman dl dd span {
+	    font-size: 12px;
+	}
+	.bwork div, .bman div {
+	    height: 185px;
+	    line-height: 185px;
+	    font-size: 25px;
+	}
+	.bman dl {
+	    height: 150px;
+	}
+	.bman p; .bwork p {
+	    font-size: 14px;
+	}
+	.contacts {
+		float: none;
+		margin: 10px auto;
+	}
+}
+@media screen and (max-width: 600px) and (min-width: 450px) {
+	.bman dl dt {
+		height: 68px;
+		line-height: 68px;
+	}
+	.bus h3 {
+	    font-size: 18px;
+	    color: #464646;
+	    text-align: center;
+	    text-indent: 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.bus h3 {
+	    text-align: center;
+	    text-indent: 0;
+	}
+	.nav_b {
+	    width: 100%;
+	    height: 150px;
+	    padding-top: 60px;
+	    margin-bottom: 30px;
+	    line-height: 150px;
+	    font-size: 26px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.bwork div, .bman div {
+	    height: 170px;
+	    line-height: 170px;
+	}
+	iframe {
+		margin-left: -15px;
+	}
+	.leftnav ul {
+		width: 100%;
+	}
+	.leftnav ul li {
+		padding: 13px 15px;
+		font-size: 12px;
+	}
+	.BMap_stdMpType0 {
+		display: none !important;
+	}
+}

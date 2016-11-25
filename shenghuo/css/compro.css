@@ -1,0 +1,103 @@
+.footer{
+	margin-top: 50px;
+}
+.nav_b {
+	width: 100%;
+	height: 305px;
+	padding-top: 80px;
+	background: url("../images/common_problem.png") center center no-repeat;
+	text-align: center;
+	line-height: 305px;
+	font-size: 52px;
+	font-family: "SimSun";
+	color: #6f6f6f;
+}
+.main {
+	font-weight: bolder;
+}
+.main h3 {
+	width: 1010px;
+	padding-left: 70px;
+	margin: 35px auto 0;
+	font-size: 20px;
+}
+.main ul {
+	width: 1080px;
+	margin: 0 auto;
+}
+.main ul li {
+	width: 95%;
+	background: #e4e6ea;
+	margin-top: 10px;
+	padding: 10px 1.5% 0 3.5%;
+}
+.main ul li span {
+	line-height: 20px;
+	font-size: 16px;
+	color: #f6664d;
+}
+.main ul li p {
+	line-height: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #494949;
+	font-weight: normal;
+}
+.main ul li em {
+	display: block;
+	width: 80%;
+	margin-top: 10px;
+	padding-left: 30px;
+}
+.main ul li em b {
+	display: block;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.t1 {
+	width: 510px;
+	height: 130px;
+	margin: 10px 0 20px 100px;
+}
+tr, th, td {
+	text-align: center;
+	border: 1px solid #000;
+	color: #000;
+	font-weight: bolder;
+}
+@media screen and (max-width: 960px) {
+	.main h3 {
+		width: 95%;
+		padding-left: 5%;
+		margin: 35px auto 0;
+		font-size: 20px;
+	}
+	.main ul {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.main ul li {
+	    width: 90%;
+	    background: #e4e6ea;
+	    margin-top: 10px;
+	    padding: 10px 5% 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.t1 {
+		width: 100%;
+		height: 130px;
+		margin: 0px;
+	}
+	.nav_b {
+	    width: 100%;
+	    height: 150px;
+	    padding-top: 80px;
+	    background: url("../images/common_problem.png") center center no-repeat;
+	    text-align: center;
+	    line-height: 150px;
+	    font-size: 30px;
+	    font-family: "SimSun";
+	    color: #6f6f6f;
+	}
+}

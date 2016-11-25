@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>关于我们</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content=", ">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<!-- 响应式 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/commom.css">
+	<link rel="stylesheet" href="../css/abus.css">
+	<link rel="shortcut icon" href="../images/header-logo.png" type="image/x-icon">
+	<script type="text/javascript" src="../libs/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+  	<script type="text/javascript" src="http://api.map.baidu.com/library/MapWrapper/1.2/src/MapWrapper.min.js"></script>
+</head>
+<style type="text/css">
+	.BMap_pop div:nth-child(9) {
+		background: url("../images/logo.png") 100% 100% no-repeat;
+		background-size: 100% 70%;
+	}
+	.footer {
+		margin-top: 50px;
+	}
+	.BMap_cpyCtrl {
+		display: none;
+	}
+</style>
+<body onload='load()'>
+	<div class="header">
+		<div class="content">
+			<div class="nav">
+				<img class="index-logo" src="../images/logo.png" alt="logo">
+				<ul class="navbar fr">
+					<li><a href="../index.php" title="首页">首页</a></li>
+					<li><a href="Electric_heating.html" title="暖仁芯">暖仁芯</a></li>
+					<li><a href="lifestyle.html" title="智能生活方式">智能生活方式</a></li>
+					<li><a href="Co_operation.html" title="合作经营">合作经营</a></li>
+					<li><a href="new.html" title="新闻资讯">新闻资讯</a></li>
+					<li><a href="about_us.html" title="关于我们">关于我们</a></li>
+					<a href="###" class="cred contact" title="电话"><span class="i-tel"></span>400-668-9626</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- @media -->
+	<div class="navlist-c">
+		<div class="navli-c"></div>
+		<div class="navli-c"></div>
+		<div class="navli-c"></div>
+	</div>
+	<div class="navlist-s">×</div>
+	<ul class="navlist">
+		<li><a href="../index.php">首页</a></li>
+		<li><a href="Electric_heating.html">暖仁芯</a></li>
+		<li><a href="lifestyle.html">智能生活方式</a></li>
+		<li><a href="Co_operation.html">合作经营</a></li>
+		<li><a href="new.html">新闻资讯</a></li>
+		<li><a href="about_us.html">关于我们</a></li>
+		<a href="tel:400-668-9626" class="cred contact"><span class="i-tel"></span>400-668-9626</a>
+	</ul>
+
+	<!-- @media 结束 -->
+	<div class="nav_b"><p id="topnav">公司介绍</p></div>
+	<div class="main clearfix" data-role="page">
+		<div class="leftnav">
+			<ul class="clearfix" id="tab">
+				<li class="select" id="fir">
+					<span>公司介绍</span><em></em>
+				</li>
+				<li id="sce">
+					<span>团队介绍</span><em></em>
+				</li>
+				<li id="thr">
+					<span>联系我们</span><em></em>
+				</li>
+			</ul>
+		</div>
+		<div class="brief bwork">
+			<h2>圣火集团简介</h2>
+			<div></div>
+			<img src="../images/jieshao.png" alt="产品样式">
+		</div>
+		<div class="brief bman clearfix" id="page1">
+			<h2>团队介绍</h2>
+			<!-- <dl>
+				<dt>虚伪以待</dt>
+				<dd><p>XX</p></dd>
+			</dl>
+			<dl>
+				<dt>虚伪以待</dt>
+				<dd><p>XX</p></dd>
+			</dl>
+			<dl>
+				<dt>虚伪以待</dt>
+				<dd><p>XX</p></dd>
+			</dl>
+			<dl>
+				<dt>虚伪以待</dt>
+				<dd>
+					<p>牛人达人</p>
+					<span>欢迎加入<br>圣火大家庭</span>
+				</dd>
+			</dl> -->
+			<p>圣火拥有一支有热血、有斗志、有梦想、有干劲的优秀团队，</p>
+			<p style="margin-bottom:30px">坚持以“专业、专家、专心为您服务”为原则。</p>
+			<p>圣火坚持以“以客为尊”为核心服务理念，自上而下形成了主动服务、创新服务的良好氛围。</p>
+			<p style="margin-bottom:30px">多年来，圣火以客户需求为出发点，一切为客户着想，将“尊重”放在服务的首位并引申到“以客为尊”的工作中，开展了规范、礼貌、温馨的特色服务，将爱心、关心、细心、知心带到服务工作中去，形成了一支有热血、有干劲、有理想、有斗志的优秀团队。  </p>
+			<div>以客为尊</div>
+		</div>
+		<div class="brief bus">
+			<h2>联系我们</h2>
+			<div id="divMap"></div>
+			<div class="contacts" style="text-align: left">
+				<p>联系人：耿经理</p>
+				<p>手机：13381397382</p>
+				<!-- <p>固话：010-XXXXXXXXX</p> -->
+				<p>邮箱：gzr@sunfire.com.cn</p>
+				<!-- <em>400-668-9626</em> -->
+			</div>
+			<div class="contacts" style="text-align: left">
+				<p>联系人：李经理 </p>
+				<p>手机：15699795370</p>
+				<!-- <p>固话：010-XXXXXXXXX</p> -->
+				<p>邮箱：ly@sunfire.com.cn</p>
+				<!-- <em>400-668-9626</em> -->
+			</div>
+			<div class="contacts" style="text-align: left">
+				<p>联系人：魏经理 </p>
+				<p>手机：18600201037</p>
+				<!-- <p>固话：010-XXXXXXXXX</p> -->
+				<p>邮箱：whw@sunfire.com.cn</p>
+				<!-- <em>400-668-9626</em> -->
+			</div>
+			<span class="span" style="text-align: left">地址：北京市朝阳区十里河建材文化街35号龙凤二层</span>
+		</div>
+	</div>
+
+	<div class="footer clearfix">
+		<div class="content clearfix">
+			<div class="part">
+				<h3><a href="../index.php#app" title="下载中心">下载中心</a></h3>
+				<ul>
+					<li><a href="../index.php#app" title="客户端APP下载链接">客户端APP</a></li>
+					<li><a href="../index.php#app" title="Android下载链接">Android</a></li>
+					<li><a href="../index.php#app" title="iOS下载链接">iOS</a></li>
+				</ul>
+			</div>
+			<div class="part">
+				<h3><a href="common_problem.html" title="帮助中心">帮助中心</a></h3>
+				<ul>
+			     	<li><a href="common_problem.html" title="常见问题">常见问题</a></li>
+					<li><a href="goods.html" title="发货服务">发货服务</a></li>
+					<li><a href="goods.html" title="退货服务">退货服务</a></li>
+				</ul>
+			</div>
+			<div class="part">
+				<h3><a href="new.html" title="新闻活动">新闻活动</a></h3>
+				<ul>
+					<li><a href="###" title="产品活动">产品活动</a></li>
+					<li><a href="new.html" title="新闻资讯">新闻资讯</a></li>
+				</ul>
+			</div>
+			<div class="part">
+				<h3><a href="about_us.html" title="关于我们">关于我们</a></h3>
+				<ul>
+					<li><a href="about_us.html?btn=fir" title="公司介绍">公司介绍</a></li>
+					<li><a href="about_us.html?btn=sce" title="团队介绍">团队介绍</a></li>
+					<li><a href="about_us.html?btn=thr" title="联系我们">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="part weixin">
+				<h3>微信公众号</h3>
+				<div class="weixin-erweima">
+					<img src="../images/page1-erweima.png" alt="微信二维码">
+				</div>
+			</div>
+			<div class="zhilian herft"></div>
+			<div class="gotop"></div>
+		</div>
+		<div class="copyright">
+			<p>Copyright © 2016 圣火集团 ALL Rights Reserved   京ICP备12029958号</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/script.js"></script>
+	<script type="text/javascript" src="../js/about.js"></script>
+</body>
+</html>

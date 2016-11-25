@@ -1,0 +1,467 @@
+.footer{
+	margin-top: 50px;
+}
+.nav_b {
+	width: 100%;
+	height: 305px;
+	padding-top: 80px;
+	margin-bottom: 60px;
+	background: url("../images/common_problem.png") 100% 100% no-repeat;
+	text-align: center;
+	line-height: 305px;
+	font-size: 52px;
+	font-family: "SimSun";
+	color: #6f6f6f;
+}
+.nav_b p {
+	width: 100%;
+}
+.main {
+	width: 1080px;
+	margin: 0 auto;
+}
+.leftnav {
+	float: left;
+	width: 220px;
+	height: 100%;
+}
+.leftnav ul li {
+	padding: 13px 20px;
+	margin-bottom: 7px;
+	background: #FFF;
+	border: 1px solid #ccc;
+	line-height: 16px;
+	font-size: 16px;
+	color: #999;
+}
+.leftnav ul li em {
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url("../images/xiala.png") center center no-repeat;
+	background-size: 100% 100%;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.leftnav ul li:hover{
+	background: #f65739;
+	color: #fff;
+}
+.page {
+	float: right;
+	width: 800px;
+}
+.page h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #f65739;
+}
+/*第一模块*/
+.yus {
+	width: 90%;	
+	margin: 5% auto;
+}
+.yus img {
+	display: block;
+	width: 100%;
+}
+/*第二模块*/
+.two h3 {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 34px;
+	color: #2f2f2f;
+	line-height: 50px;
+	text-align: center;
+}
+.two span {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: #464646;
+	line-height: 30px;
+	text-align: center;
+}
+.two p {
+	float: left;
+	width: 200px;
+	padding: 14px 0;
+	margin-top: 20px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #8c8c8c;
+}
+.main .two img {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+.htop {
+	float: left;
+	width: 33.33%;
+}
+.two .top {
+	width: 100%;
+}
+.two ul {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.two ul li {
+	width: 80%;
+	height: 30px;
+	margin: 10px auto 0;
+	background: #818284;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+}
+.two .bult, .two .bul {
+	width:88%;
+	margin: 0 6%;
+}
+/*第三模块*/
+.thr p {
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+.thr ul {
+	line-height: 30px;
+	font-size: 16px;
+	color: #f65739;
+}
+.thr ul li {
+	padding-left: 20px;
+	color: #464646;
+}
+.thr span {
+	display: block;
+	width: 325px;
+	padding: 17px 0;
+	background: #f65739;
+	margin: 80px auto;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 8px;
+}
+/*第四模块*/
+.fou .mai {
+	overflow: hidden;
+    width: 840px;
+    height: 320px;
+    background: url("../images/life_icon_22.png") 100% 15px no-repeat;
+    background-size: 70% 54%;
+}
+.fou .mai dt, .mai dl h3, .mai dl dd {
+	width: 100%;
+}
+.mai dl dd {
+	margin: 0;
+}
+.fou .mai img {
+	display: block;
+	width: 57px;
+	height: 57px;
+	margin: 0 auto;
+}
+.mai dl h3 {
+	width: 100%;
+}
+.mai dl {
+	overflow: hidden;
+	float: left;
+	width: 280px;
+	margin:0;
+	padding: 16px 0 20px 0;
+	text-align: center;
+}
+.mai dl:nth-child(1), .mai dl:nth-child(2) {
+	box-shadow: 1px 1px 0 #7e7e7e;
+}
+.mai dl:nth-child(3) {
+	box-shadow: 0px 1px 0 #7e7e7e;
+}
+.mai dl:nth-child(4), .mai dl:nth-child(5) {
+	box-shadow: 1px 0px 0 #7e7e7e;
+}
+.mai dl:nth-child(4) {
+	padding-bottom: 0;
+}
+.fou span {
+	display: block;
+	width: 202px;
+	height: 50px;
+	margin: 60px auto;
+	background: #f65739;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.fou h3 {
+	line-height: 30px;
+	font-size: 20px;
+	color: #f65739;
+}
+.fou p {
+	line-height: 30px;
+	font-size: 16px;
+	color: #2f2f2f;
+}
+/*第五模块*/
+.fiv form {
+	width: 325px;
+	margin: 0 auto;
+}
+.fiv form div {
+	width: 100%;
+	margin-bottom: 25px;
+	text-indent: 1em;
+}
+.fiv label {
+	display: block;
+	width: 100%;
+	color: #f65739;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 0;
+}
+.fiv .name, .fiv .phone {
+	height: 32px;
+	background: #fff;
+	font-size: 16px;
+	line-height: 32px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+}
+.fiv .name input, .fiv .phone input {
+	width: 90%;
+	height: 100%;
+}
+.fiv .city {
+	height: 32px;
+}
+.fiv .city select {
+	float: left;
+	width: 30%;
+	height: 32px;
+	padding-left: 2%;
+	line-height: 32px;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #a3a3a3;
+}
+.fiv .city select:nth-child(2) {
+	margin: 0 5%;
+}
+.fiv .remark {
+	overflow: hidden;
+	height: 95px;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+textarea {
+	width: 90%;
+	font-size:16px;
+	letter-spacing: 0.1em;
+	outline:none;
+	resize:none
+}
+#tj {
+	width: 96%;
+	height: 57px;
+	margin: 0 auto;
+	background: #f65739;
+	text-align: center;
+	line-height: 57px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+}
+#tj:hover {
+    background: #dc4a16;
+}
+/*第六模块*/
+/*第七模块*/
+.two, .thr, .fou, .fiv, .six, .sev {
+	display: none;
+}
+
+.leftnav .select{
+	background: #f65739;
+	color: #fff;
+}
+.leftnav ul li .sel {
+	background: url("../images/xiala2.png");
+	background-size: 100% 100%;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+
+@media screen and (max-width: 1500px) {
+	.nav_b {
+	    width: 100%;
+	    height: 305px;
+	    padding-top: 80px;
+	    margin-bottom: 60px;
+	    background: url("../images/common_problem.png") center center no-repeat;
+	    text-align: center;
+	    line-height: 305px;
+	    font-size: 52px;
+	    font-family: "SimSun";
+	    color: #6f6f6f;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.header {
+	    position: absolute;
+	}
+	.nav_b {
+	    width: 100%;
+	    height: 175px;
+	    padding-top: 80px;
+	    margin-bottom: 60px;
+	    background: url("../images/common_problem.png") center center no-repeat;
+		text-align: center;
+	    line-height: 175px;
+	    font-size: 52px;
+	    font-family: "SimSun";
+	    color: #6f6f6f;
+	}
+	.main {
+	    width: 100%;
+	}
+	.page {
+	    width: 100%;
+	}
+	.leftnav {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+    .hel {
+    	width: 90%;
+    	margin: 0 auto;
+    }
+    .two p {
+	    float: left;
+	    width: 23%;
+	    padding: 5px 5%;
+	    margin: 0 !important;
+	    margin-top: 20px !important;
+	    font-size: 14px;
+	    text-align: center;
+	    border: 1px solid #8c8c8c;
+	}
+	.two .top {
+	    width: 100%;
+	}
+	.two ul {
+	    float: left;
+	    width: 80%;
+	    margin: 0 10%;
+	    text-align: center;
+	}
+	.page h2 {
+		text-indent: 1em;
+	}
+	.thr ul, .thr p {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.fou .mai {
+	    width: 100%;
+	}
+	.mai dl {
+	    width: 33.33%;
+	}
+	.fou p {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.nav_b {
+		margin-bottom: 30px;
+	}
+	.leftnav ul li {
+	    padding: 13px 20px;
+	    background: #FFF;
+	    margin-bottom: 0;
+	    line-height: 12px;
+	    font-size: 12px;
+	    color: #999;
+	    -webkit-box-shadow: 0 0 1px #ccc;
+	    -moz-box-shadow: 0 0 1px #ccc;
+	    -ms-box-shadow: 0 0 1px #ccc;
+	    box-shadow: 0 0 1px #ccc;
+	}
+	.htop {
+	    float: left;
+	    width: 80%;
+	    margin: 0 10%;
+	    padding: 0 !important;
+	}
+}
+@media screen and (max-width: 680px) {
+	.hel {
+		width: 80%;
+	}
+	.hel p {
+		width: 90%;
+		border: 1% solid #ccc;
+	}
+}
+@media screen and (max-width: 600px) {
+	.nav_b {
+	    font-size: 30px;
+	}
+	.yus {
+	    width: 96%;
+	    margin: 5% auto;
+	}
+	.fou p {
+		width: 96%;
+		height: 60px;
+		padding: 0 2%;
+		line-height: 20px;
+	}
+	.fou .mai {
+		background: url("../images/life_icon_22.png") 100% 15px no-repeat;
+    	background-size: 70% 65%;
+	}
+	.fou .mai {
+	    overflow: hidden;
+	    height: 350px;
+	}
+	.fiv form {
+	    width: 100%;
+	}
+	.fiv form div {
+	    width: 95%;
+	    margin: 0 auto;
+	    margin-bottom: 25px;
+	}
+	.fiv form .form div, .fiv form label, .fiv form #tj {
+		float: left;
+	}
+}
+.wrap {
+	width: 50%;
+	height: 300px;
+	padding: 200px 0 0 50%;
+	background: #fff url("../images/news.gif") center center no-repeat;
+	font-size: 60px;
+	font-weight: bolder;
+}

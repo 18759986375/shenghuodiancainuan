@@ -1,0 +1,803 @@
+.header .navbar li a {
+    position: relative;
+    padding: 2px 0;
+	color: #000;
+}
+.model {
+	position: relative;
+}
+.poa {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 910px;
+	background: url("../images/Electric_heating.png") center center no-repeat;
+}
+.banner .poa, .section1 .poa {
+	color: #fff;
+	text-align: center;
+}
+.banner .poa h2, .section1 .poa h2 {
+	margin: 16% 0 2% 0;
+	font-size: 60px;
+	font-weight: 100;
+}
+.banner .poa h2 {
+	margin-top: 335px;
+}
+.banner .poa span {
+	padding: 4% 15px;
+	font-size: 30px;
+}
+/*第二模板*/
+.section1 {
+	width: 100%;
+	height: 905px;
+	background: url(../images/Electric_heating_1.png) 0 0 no-repeat;
+}
+.section1 .poa h2 {
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 60px;
+	font-weight: 100;
+}
+.section1 .poa span {
+	float: left;
+	width: 100%;
+	font-size: 24px;
+	line-height: 70px;
+}
+.section1 .poa dl {
+	float: left;
+	width: 20%;
+	height: 270px;
+	text-align: center;
+}
+.section1 .poa dl dt {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin:0 auto;
+	background: url("../images/icons_01.png") center center no-repeat;
+	background-size: 100% 100%;
+}
+.section1 .poa dl:nth-child(2) dt {
+	background: url("../images/icons_04.png") center center no-repeat;
+	background-size: 100% 100%;
+}
+.section1 .poa dl:nth-child(3) dt {
+	background: url("../images/icons_02.png") center center no-repeat;
+	background-size: 100% 100%;
+}
+.section1 .poa dl:nth-child(4) dt {
+	background: url("../images/icons_05.png") center center no-repeat;
+	background-size: 100% 100%;
+}
+.section1 .poa dl:nth-child(5) dt {
+	background: url("../images/icons_03.png") center center no-repeat;
+	background-size: 100% 100%;
+}
+.header .navbar .active a {
+    border-bottom: 3px solid #e60012;
+}
+.dli {
+	width: 1080px;
+	margin: 0 auto;
+}
+.dli dl dd {
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+}
+.dli dl dd i {
+	font-size: 42px;
+	font-style: italic;
+}
+.dli dl dd em {
+	font-size: 16px;
+}
+.section1 .poa dl:nth-child(1), .section1 .poa dl:nth-child(3), .section1 .poa dl:nth-child(5) {
+	margin-top: 50px;
+}
+.section1 .poa dl:nth-child(2), .section1 .poa dl:nth-child(4) {
+	margin-top: 280px;
+}
+/*第三模板*/
+.section2 .poa .img {
+	float: left;
+	width: 44%;
+}
+.section2 .poa .img img {
+	float: right;
+	width: 460px;
+	height: 380px;
+	margin-top: 25%;
+	box-shadow: -10px 15px 30px #b1abab;
+}
+.section2 .poa .main {
+	float: left;
+	height: 385px;
+	margin: 10% 5% 10% 6%;
+}
+.model h3 {
+	font-size: 56px;
+	text-indent: 0.1em;
+}
+.section2 span {
+	font-size: 24px;
+	color: #e74037;
+	line-height: 80px;
+}
+.section2 p {
+	font-size: 16px;
+	text-indent: 1em;
+	line-height: 25px;
+}
+.section2 strong, .section2 em {
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 18px;
+	line-height: 18px;
+}
+.section2 strong {
+	color: #e74037;
+}
+.section2 em {
+	margin-right: 20px;
+}
+/*第四模块*/
+.section3 {
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+.section3 img {
+	/*display: none;*/
+	width: 100%;
+	-webkit-box-shadow: 0 0 10% #fff;
+	-moz-box-shadow: 0 0 10% #fff;
+	-ms-box-shadow: 0 0 10% #fff;
+	box-shadow: 0 0 10% #fff;
+}
+.section3 .poa {
+	width: 46%;
+}
+.section3 .left {
+	float: right;
+	margin-top: 15%;
+}
+.section3 .left span {
+	line-height: 55px;
+	font-size: 24px;
+	color: #e74037;
+}
+.section3 .left p {
+	font-size: 16px;
+	text-indent: 1em;
+	line-height: 30px;
+	color: #434343;
+}
+/*第五模板*/
+.section4 .poa {
+	width: 100%;
+	text-align: center;
+}
+.section4 .poa h3 {
+	width: 100%;
+	line-height:3;
+	margin-top: 120px;
+}
+.section4 .poa .help {
+	width: 1300px;
+	margin: 0 auto;
+}
+.section4 .help dl {
+	float: left;
+	width: 33.33%;
+}
+.section4 .help dl dt {
+	width: 142px;
+	height: 142px;
+	margin: 25px auto;
+}
+.section4 .help dl:nth-child(1) dt {
+	background: url("../images/page1-m4-icon4f.png") no-repeat;
+}
+.section4 .help dl:nth-child(2) dt {
+	background: url("../images/page1-m4-icon5f.png") no-repeat;
+}
+.section4 .help dl:nth-child(3) dt {
+	background: url("../images/page1-m4-icon6f.png") no-repeat;
+}
+.section4 .help dl dd{
+	margin-left: 0;
+}
+.section4 .help dl dd span {
+	font-size: 24px;
+	color: #e74037;
+	line-height: 40px;
+}
+.section4 .help dl dd p {
+	font-size: 16px;
+	line-height: 25px;
+	color: #404040;
+}
+.section4 img {
+	display: block;
+	width: 1980px;
+	height: auto;
+}
+/*第六模板*/
+.section5 {
+	width: 100%;
+	height: 850px;
+	background: #fff;
+}
+.section5 .poa {
+	width: 100%;
+}
+.section5 .poa .help {
+	width: 1300px;
+	margin: 0 auto;
+}
+.section5 .help h3 {
+	width: 100%;
+	margin: 100px 0 30px 0;
+	text-align: center;
+}
+.section5 .help .top {
+	width: 675px;
+	margin: 0 auto;
+	text-indent: 1em;
+}
+.section5 .top img {
+	float: left;
+	width: 235px;
+	height: 220px; 
+}
+.section5 .top span {
+	float: left;
+	font-size: 24px;
+	color: #e74037;
+}
+.section5 .top p {
+	float: left;
+	width: 440px;
+	font-size: 16px;
+	line-height: 26px;
+}
+.section5 .fivb {
+	float: left;
+	width: 100%;
+	height: 335px;
+	margin-top: 50px;
+	background: url("../images/page1-m4-icon7.png") no-repeat;
+	background-size: 100% 90%;
+}
+.section5 .fivb dl:nth-child(1) {
+	float: left;
+	width: 22%;
+	height: 100%;
+}
+.section5 .fivb dl:nth-child(2) {
+	float: left;
+	width: 24%;
+	height: 100%;
+	padding-left: 1%
+}
+.section5 .fivb dl:nth-child(3) {
+	float: left;
+	width: 27%;
+	height: 100%;
+	padding-left: 1%
+}
+.section5 .fivb dl:nth-child(4) {
+	float: left;
+	width: 24%;
+	height: 100%;
+	padding-left: 1%
+}
+.section5 .fivb dl dt {
+	float: left;
+	width: 100%;
+	height: 120px;
+}
+.section5 .fivb dl dt img {
+	display: block;
+	width: 50%;
+	height: 120px;
+}
+.section5 .fivb dl:nth-child(3) dt img {
+	width: 21%;
+}
+.section5 .fivb dl dd {
+	margin-left: 0;
+}
+.section5 .fivb dl dd span {
+	line-height: 70px;
+	font-size: 24px;
+	color: #e74037;
+}
+.section5 .fivb dl dd p {
+	font-size: 16px;
+	text-indent: 0.5em;
+	color: #454545;
+	line-height: 30px;
+}
+/*第七模块*/
+.section6 .poa, .section6 .help, .section6 .help span {
+	width: 100%;
+	overflow: hidden;
+}
+.section6 img {
+	width: 1980px;
+	height: 918px;
+}
+.section6 .help h2 {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 60px;
+}
+.section6 .help span {
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+}
+.section6 .detailed {
+    position: relative;
+    width: 606px;
+    height: 628px;
+    margin: 0 auto;
+    background: url("../images/icons_2.png") center center no-repeat;
+}
+
+.section6 .detailed p {
+	position: absolute;;
+	width: 160px;
+	height: 160px;
+}
+.section6 .detailed p img {
+	display: block;
+	width: 100%;
+	height: 99%;
+}
+.section6 .detailed p img:nth-child(2) {
+	display: none;
+}
+.section6 .detailed p:nth-child(1) {
+	top: 15px;
+	left: 229px;
+}
+.section6 .detailed p:nth-child(2) {
+	top: 140px;
+	left: 24px;
+}
+.section6 .detailed p:nth-child(3) {
+	top: 140px;
+	left: 439px;
+}
+.section6 .detailed p:nth-child(5) {
+	top: 358px;
+	left: 24px;
+}
+.section6 .detailed p:nth-child(6) {
+	top: 360px;
+	left: 439px;
+}
+.section6 .detailed p:nth-child(7) {
+	top: 470px;
+	left: 229px;
+}
+.section6 .detailed em {
+	position: absolute;
+	left: 32%;
+    top: 36%;
+	width: 230px;
+	height: 200px;
+	background: url("../images/iconsf_center.png") center center no-repeat;
+}
+@media screen and (max-width: 1180px) and (min-width: 960px) {
+	.section2 .poa .main {
+		margin: 5% 30px;
+		width: 51%;
+	}
+	.section2 .poa .img {
+		width: 30%;
+		margin-left: 10%;
+	}
+	.section2 .poa .img img {
+		width: 100%;
+		height: auto;
+		margin-top: 25%;
+	}
+}
+@media screen and (max-width: 960px) {
+	.banner .poa h2, .section1 .poa h2 {
+	    font-size: 34px;
+	    font-weight: bolder;
+	}
+	.banner .poa h2 {
+		margin-top: 250px;
+	}
+	.section1 .poa h2 {
+		padding-top:30px;
+	}
+	.banner .poa span {
+		padding: 4% 15px;
+		font-size: 20px;
+	}
+	.dli dl dd i {
+		font-size: 32px;
+	}
+	.model img {
+	    height: 600px;
+	}
+	.section5 .fivb dl:nth-child(1), .section5 .fivb dl:nth-child(2), .section5 .fivb dl:nth-child(3), .section5 .fivb dl:nth-child(4), .section1 .poa h2 {
+		margin: 0;
+	}
+	.section1 .poa span {
+		line-height: 40px;
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	.section1 .poa dl:nth-child(2), .section1 .poa dl:nth-child(4), .section1 .poa dl:nth-child(1), .section1 .poa dl:nth-child(3), .section1 .poa dl:nth-child(5) {
+		float: left;
+		width: 96%;
+		padding: 0 2%;
+		margin-top: 10px;
+	}
+	.section1 .poa dl:nth-child(5) {
+		width: 100%;
+	}
+	.section1 .poa dl {
+		height: 240px;
+	}
+	.section1 {
+		height: 1500px;
+		background: #000;
+	}
+	.section1 .poa dl dt {
+	    width: 145px;
+	    height: 145px;
+	}
+	.section5 .fivb, .section3 {
+		background-image: none;
+	}
+	.section2 .poa .img img {
+		display: block;
+		width: 30%;
+		height: auto;
+		margin: 5% 35%;
+	}
+	.section2 .poa .main {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.section2 .poa .img {
+		width: 100%;
+	}
+	.section2 em, .section2 strong {
+		margin: 15px 0 0 0;
+		font-size: 16px;
+	}
+	.section2 p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.model h3 {
+		font-size: 36px;
+	}
+	.section2 span {
+	    font-size: 20px;
+	    line-height: 44px;
+	}
+	.section3 .left {
+		float: none;
+		margin-top: 5%;
+	}
+	.section3 .left span {
+		line-height: 40px;
+	}
+	.section4 .poa .help {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.section4 .help dl dt {
+	    width: 90px;
+	    height: 90px;
+	    margin: 20px auto;
+	    background-size: 
+	}
+	.section4 .help dl:nth-child(1) dt, .section4 .help dl:nth-child(2) dt, .section4 .help dl:nth-child(3) dt {
+	    background-size: contain;
+	}
+	.section4 .poa h3 {
+	    width: 100%;
+	    line-height: 40px;
+	    margin-top: 70px;
+	}
+	.section4 .help dl {
+	    float: left;
+	    width: 100%;
+	}
+	.section4 {
+		height: 1160px;
+	}
+	.section4 img {
+		height: 100%;
+		width: 1160px;
+		transform:rotate(90deg);
+		-ms-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+	}
+	.wave:before, .section1 img, .section5 .top img {
+		display: none;
+	}
+	.section5 .help .top {
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	    text-indent: 0;
+	}
+	.dli, .section5 .poa .help, .section5 .top span, .section5 .top p, .section5 .fivb dl:nth-child(1), .section5 .fivb dl:nth-child(2), .section5 .fivb dl:nth-child(3), .section5 .fivb dl:nth-child(4) {
+		width: 100%;
+	}
+	.section5 .fivb dl dt img {
+	    display: block;
+	    width: auto;
+	    height: 120px; 
+	    margin: 0 auto;
+	}
+	.section5 .top span, .section5 .fivb dl dd span {
+		display: block;
+	}
+	.section5 .fivb dl dd p, .section5 .fivb dl dd span {
+		text-align: center;
+	}
+	.section5 .fivb dl dd p {
+		text-align: center;
+		text-indent: 0;
+	}
+	.section5 {
+	    height: 1800px;
+	}
+	.section5 .fivb dl:nth-child(3) dt img {
+	    width: 85px;
+	}
+	.section5 .help h3 {
+		margin-top: 50px;
+	}
+	.section6 .detailed {
+	    width: 280px;
+	    height: 260px;
+	    margin: 50px auto;
+	    background: url("../images/icons_2.png") center center no-repeat;
+	    background-size: 100% 100%;
+	}
+	.section6 .help h2 {
+	    text-align: center;
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin: 0;
+	}
+	.section6 .help span {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.section6 .detailed em {
+		position: absolute;
+	    left: 29%;
+	    top: 30%;
+	    width: 130px;
+	    height: 110px;
+		background-size: 100% 100%;
+	}
+	.section6 .detailed p {
+	    position: absolute;
+	    width: 90px;
+	    height: 90px;
+	    text-align: center;
+	}
+	.section6 .detailed p:nth-child(1) {
+	    top: -15%;
+	    left: 35%;
+	}
+	.section6 .detailed p:nth-child(2) {
+	    top: 11%;
+	    left: -10%;
+	}
+	.section6 .detailed p:nth-child(3) {
+	    top: 13%;
+	    left: 78%;
+	}
+	.section6 .detailed p:nth-child(5) {
+	    top: 61%;
+	    left: -8%;
+	}
+	.section6 .detailed p:nth-child(6) {
+	    top: 59%;
+	    left: 75%;
+	}
+	.section6 .detailed p:nth-child(7) {
+	    top: 85%;
+	    left: 34%;
+	}
+	.section6 {
+		height: 400px;
+		padding-top: 100px;
+		background: url("../images/Electric_heating_5.png") center center no-repeat;
+	}
+	.section6 img{
+		display: none;
+	}
+	.section3 .left p {
+		width: 100%;
+	}
+	.section3 {
+		min-height: 340px;
+		height: 450px;
+		background: url(../images/Electric_heating_3.png) center center no-repeat;
+	}
+	.section3 img {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 700px) {
+	.banner {
+	    height: 700px;
+	    background: url("../images/Electric_heating.png") 30% center no-repeat;
+	}
+	.section3 h3 {
+	    font-size: 34px;
+	    margin-top: 20px;
+	}
+	.section3 .left span {
+	    line-height: 34px;
+	    font-size: 20px;
+	    color: #e74037;
+	}
+	.section3 .left p {
+		width: 96%;
+		padding: 0 2%;
+		text-indent: 0em;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.section3 .poa {
+	    width: 98%;
+	}
+	.section3 .left {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.section5 .fivb dl dd p, .section5 .top p, .section4 .help dl dd p {
+		font-size: 14px;
+	}
+	.section3 {
+	    height: 400px;
+	    background: url(../images/Electric_heating_3.png) center 20% no-repeat;
+	}
+	.section2 .poa .main {
+	    width: 100%;
+	    text-align: center;
+	}
+	.section4 img {
+		height: 100%;
+	}
+}
+@media screen and (max-width: 550px) {
+	.banner .poa h2, .section1 .poa h2 {
+	    margin: 5% 0 2% 0;
+	    font-size: 28px;
+	    font-weight: 100;
+	}
+	.banner .poa h2 {
+		margin-top:250px;
+	}
+	.section2 .poa .img img {
+		float: none;
+		width: 160px;
+		height: 130px;
+		margin: 50px auto;
+	}
+	.banner .poa span {
+		font-size: 18px;
+		padding: 4% 10px;
+	}
+	.section2 em, .section2 strong {
+	    margin: 5px 1% 0 0;
+	    font-size: 14px;
+	}
+	.section2 span {
+		line-height: 30px;
+	}
+	.model h3 {
+		font-size: 30px;
+	}
+	.section2 p {
+	    font-size: 14px;
+	}
+	.section3 .left {
+		margin-top: 70px;
+	}
+	.section3 .left p, .section2 p {
+		line-height: 22px;
+	}
+	.section3 {
+		padding-top: 50px;
+		height: 500px;
+	}
+	.section1 .poa span {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.banner .poa h2, .section1 .poa h2 {
+		font-size: 24px;
+	}
+	.section2 {
+		width: 100%;
+		height:600px;
+	}
+	.section2 em, .section2 strong {
+		margin: 5px 0 0 0;
+    	font-size: 14px;
+	}
+	.section2 img {
+		height: 100%;
+	}
+	.section3 img {
+		display: none;
+	}
+	.section3 {
+	    background: #fff url("../images/Electric_heating_3.png") center 15% no-repeat;
+	}
+	.section6 .detailed {
+	    width: 220px;
+	    height: 220px;
+	}
+	.model p {
+		width: 98% !important;
+		padding: 0 1% !important;
+	}
+	.section6 .detailed p {
+	    position: absolute;
+	    width: 80px !important;
+	    height: 80px;
+	    padding: 0 !important;
+	    text-align: center;
+	}
+	.section6 .detailed em {
+	    width: 100px;
+	    height: 85px;
+	}
+	.section6 .detailed p:nth-child(1) {
+	    left: 33%;
+	}
+	.section6 .detailed p:nth-child(3) {
+	    top: 10%;
+	}
+	.section6 {
+	    height: 300px;
+	}
+	.section6 .help h2 {
+		font-size: 28px;
+	}
+	.section6 .help span {
+		font-size: 20px;
+	}
+	.section6 .detailed p:nth-child(5) {
+	    top: 59%;
+	    left: -9%;
+	}
+}
